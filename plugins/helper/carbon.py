@@ -38,13 +38,13 @@ async def carbon_func(_, message):
             "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴀᴋᴇ ᴄᴀʀʙᴏɴ."
         )
     user_id = message.from_user.id
-    m = await message.reply_text("ᴘʀᴏᴄᴇssɪɴɢ...")
+    m = await message.reply_text("ᴘʀᴏᴄᴇssɪɴɢ.....⏳")
     carbon = await make_carbon(message.reply_to_message.text)
-    await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ..")
+    await m.edit("ᴜᴘʟᴏᴀᴅɪɴɢ......⬆️")
     await message.reply_photo(
         photo=carbon,
-        caption="**ᴛʜɪs ᴘɪᴄ ɪs ɴɪᴄᴇ ᴏɴᴇ\nᴍᴀᴅᴇ ʙʏ @MLZ_BOTZ**",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url='https://t.me/MLZ_BOTZ_SUPPORT')]]),                   
+        caption="**ᴛʜɪs ᴘɪᴄ ɪs ɴɪᴄᴇ ᴏɴᴇ\nᴍᴀᴅᴇ ʙʏ ©VipMoviez**",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url='https://t.me/Vipmoviezchats')]]),                   
     )
     await m.delete()
     carbon.close()
