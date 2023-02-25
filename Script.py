@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hey, Sweetheart💕{},\n
-My Name <a href=https://t.me/{}>{}</a>, Bot ⚡. \n\nI am powerfull autofilter bot I Have tons os Movies just add me to your group and see the magic </b>"""
+My Name <a href=https://t.me/{}>{}</a>, Bot ⚡. \nI am powerfull autofilter bot\nI Have tons os Movies just add me to your group and see the magic </b>"""
     
     HELP_TXT = """<b>𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
@@ -270,8 +270,8 @@ Name - {}
 <b>© Powered by {}</b>
 """
     SUR_TXT = """
-<b>Hey, Sweetheart💕{},
-My Name <a href=https://t.me/{}>{}</a>, Bot ⚡.\n I am powerfull autofilter bot I Have tons os Movies just add me to your group and see the magic </b>
+<b>Hey, Sweetheart💕{},\n
+My Name <a href=https://t.me/{}>{}</a>, Bot ⚡. \nI am powerfull autofilter bot\nI Have tons os Movies just add me to your group and see the magic </b>
 """
 
     IMDB_TEMPLATE_TXT = """
