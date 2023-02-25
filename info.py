@@ -90,7 +90,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #Auto approve 
 #In private group or channel must enable request admin approval 
-CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001758193494').split()]
+CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '-1001741794909').split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour request has been approved")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
@@ -103,9 +103,9 @@ MAX_BTN = int(environ.get('MAX_BTN', "10"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/Vipmoviezchats")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Vipmoviez")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+gc7Jr3ow_242MzRl")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
+MSG_ALRT = environ.get('MSG_ALRT', 'Hᴀᴘᴘʏ Tᴏ Hᴇʟᴘ Yᴏᴜ ..')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', "-1001897947228"))
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1001741794909"))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ""))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Vipmoviezchats')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
