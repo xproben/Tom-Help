@@ -12,7 +12,7 @@ from database.users_chats_db import db
 #=====================================================
 BOT_START_TIME = time.time()
 
-HEROKU_API_KEY = (os.environ.get("HEROKU_API_KEY", ""))
+HEROKU_API_KEY = (os.environ.get("HEROKU_API_KEY", "a3471f05-ff8e-42f4-a11f-e8a228dad182"))
 #=====================================================
 
 @Client.on_message(filters.command('status'))
