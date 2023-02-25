@@ -34,4 +34,4 @@ dnspython
 aiohttp
 python-math
 Pillow
-speedtest
+speedtest-cli
