@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQue
 from pyrogram.handlers import MessageHandler
 from pyshorteners import Shortener
 
-BITLY_API = os.environ.get("BITLY_API", "ae455c94f355912ce64c2882c8c44a1f918e7e22")
+BITLY_API = os.environ.get("BITLY_API", "d587098f4e0c03aedd23722f8c6f8e4fd9e3a6c2")
 
 reply_markup = InlineKeyboardMarkup(
         [[
